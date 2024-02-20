@@ -1,14 +1,4 @@
-# computervision
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# Computer Vision Project Using Vue.js
 
 ## Project Setup
 
@@ -22,9 +12,12 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### How To Use
 
-```sh
-npm run build
-```
-"# ComputerVisionOnVue" 
+- allow camera access on your browser
+- hold an object to the camera
+- click the speak button (need to allow microphone access)
+- Say the command ( the only supported command right now is " what is this "
+Expected response should be 4 possibilities for what the object could be with a percentage for each possibility ( multiple responses could hold the same meaning i.e man and male or similar meanings like citrus and orange
+
+### This is built using imagga computer vision api
