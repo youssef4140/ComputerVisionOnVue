@@ -18,6 +18,7 @@ npm run dev
 - hold an object to the camera
 - click the speak button (need to allow microphone access)
 - Say the command ( the only supported command right now is " what is this "
+<hr>
 Expected response should be 4 possibilities for what the object could be with a percentage for each possibility ( multiple responses could hold the same meaning i.e man and male or similar meanings like citrus and orange
 
 ### This is built using imagga computer vision api
